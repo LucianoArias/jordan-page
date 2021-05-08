@@ -1,0 +1,63 @@
+* {
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-image: url(assets/images/jordan-back.jpg);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.headerLogo img {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+}
+
+.sectionBox {
+    border: 1px solid red;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.sectionDivImagen img {
+    height: 200px;
+    width: 300px;
+}
+
+.sectionDivImagen {
+    justify-content: center;
+    display: flex;
+}
+
+.footerBox {
+    border: 1px solid red;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+}
+
+.footerLogo img {
+    height: 110px;
+    width: 110px;
+}
+
+a {
+    margin-left: 13px;
+    position: absolute;
+}
+
+h6 {
+    text-align: right;
+    margin-bottom: -10px;
+}
