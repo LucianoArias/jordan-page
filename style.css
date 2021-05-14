@@ -17,9 +17,13 @@ h1 {
 .headerLogo img {
     height: 110px;
     width: 110px;
-    position: absolute;
-    right: 30px;
-    top: 8px;
+}
+
+div.headerLogo {
+    display: flex;
+    justify-content: flex-end;
+    margin: 17px;
+    margin-top: -93px;
 }
 
 .sectionBox {
@@ -27,7 +31,7 @@ h1 {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     margin: 20px;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .sectionDivImagen img {
@@ -36,8 +40,8 @@ h1 {
 }
 
 .sectionDivImagen {
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
 
 .footerBox {
