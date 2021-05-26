@@ -64,3 +64,50 @@ h6 {
     text-align: right;
     margin-bottom: -10px;
 }
+/* Media queries 768px */
+@media (max-width: 768px) {
+    .headerLogo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .sectionDivImagen img {
+        height: 180px;
+        width: 280px;
+    }
+
+    .footerLogo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    a {
+        margin: 10px;
+    }
+}
+/* Media queries 500px */
+@media (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .headerLogo img {
+        height: 80px;
+        width: 80px;
+        margin-top: 20px;
+    }
+
+    .sectionDivImagen img {
+        height: 145px;
+        width: 240px;
+    }
+
+    .footerLogo img {
+        height: 80px;
+        width: 80px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
